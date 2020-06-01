@@ -76,7 +76,6 @@ body{
 #mid-node{
 
 	margin-bottom: 70px;
-	overflow: hidden;
 }
 
 #mid-node{
@@ -201,14 +200,16 @@ body{
 	#mid-node article{
 
 		
-		padding: 0px;
+		padding: 20px;
+		margin-right: 10px;
+		margin-left: 10px;
 		
 	}
 
 	#mid-node .items .item-node{
 
 		margin-top: 20px;
-		width: 300px;
+		width: 350px;
 		text-align: center;
 		background-color: white;
 		box-shadow: 0 4px 8px 0 black;
