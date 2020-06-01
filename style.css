@@ -41,14 +41,6 @@ body{
 
 .navbar{
 
-	/*background-image: url(images/crumpled-2.jpeg);
-	background-size: cover;*/
-	/*background-color: #FFF1E5;*/
-	/*position: sticky;
-	border: solid;
-	outline: 2px solid;
-	outline-offset: -9px;
-	background-color: transparent;*/
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background-color: black;
@@ -84,6 +76,7 @@ body{
 #mid-node{
 
 	margin-bottom: 70px;
+	overflow: hidden;
 }
 
 #mid-node{
@@ -186,6 +179,44 @@ body{
 
 	margin: 10px;
 	font-size: 20px;
+}
+
+@media only screen and (max-width: 414px){
+
+	.navbar #logo{
+
+		height: 60px;
+		width: 60px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	#nav-links a{
+
+		letter-spacing: 0px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	#mid-node article{
+
+		
+		padding: 10px;
+		
+	}
+
+	#mid-node .items .item-node{
+
+		margin-top: 20px;
+		width: 300px;
+		text-align: center;
+		background-color: white;
+		box-shadow: 0 4px 8px 0 black;
+		border-radius: 10px;
+		margin-left: 5px;
+		margin-right: 5px;
+		overflow: hidden;
+	}
 }
 
 
