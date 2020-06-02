@@ -89,7 +89,7 @@ body{
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	animation: fadeIn ease 2s;
+	animation: fadeIn ease 3s;
 }
 
 #mid-node #announcement{
