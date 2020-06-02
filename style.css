@@ -105,16 +105,9 @@ body{
 	list-style-type: none;
 }
 
-#mid-node #announcement ul{
+#mid-node #announcement ul li{
 
-	padding: 0;
-	list-style-type: none;
-}
-
-#mid-node #announcement ul{
-
-	padding: 0;
-	list-style-type: none;
+	margin-bottom: 10px;
 }
 
 #mid-node .items{
