@@ -16,11 +16,17 @@ body{
 	background-size: 80px;
 	margin: 0; /*remove whitespace around body*/
 	font-family: AG;
-	-webkit-transition: all 1.5s;
-	-moz-transition: all 1.5s;
-	-ms-transition: all 1.5s;
-	-o-transition: all 1.5s;
-	transition: all 1.5s;
+}
+
+@keyframes fadeIn{
+
+	0%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
 }
 
 .links a{
@@ -45,9 +51,8 @@ body{
 	padding-bottom: 5px;
 	background-color: black;
 	overflow: hidden;
+	animation: fadeIn ease 1s;
 }
-
-
 
 #nav-links{
 
@@ -84,11 +89,7 @@ body{
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	-webkit-transition: all 2s;
-	-moz-transition: all 2s;
-	-ms-transition: all 2s;
-	-o-transition: all 2s;
-	transition: all 2s;
+	animation: fadeIn ease 2s;
 }
 
 #mid-node #announcement{
@@ -160,6 +161,7 @@ body{
 	bottom: 0;
 	padding-top: 20px;
 	padding-bottom: 20px;*/
+	bottom: 0;
 }
 
 .footer #footer-icons{
