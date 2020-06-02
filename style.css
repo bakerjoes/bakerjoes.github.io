@@ -78,14 +78,11 @@ body{
 	margin-right: 10px;
 }
 
-#mid-node{
-
-	margin-bottom: 70px;
-}
 
 #mid-node{
 
 	margin-top: 50px;
+	margin-bottom: 70px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -185,6 +182,14 @@ body{
 
 @media only screen and (max-width: 414px){
 
+	.navbar{ /*sticky navbar for smaller screens*/
+
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+	}
+
 	.navbar #logo{
 
 		height: 60px;
@@ -199,6 +204,11 @@ body{
 		letter-spacing: 0px;
 		margin-left: 10px;
 		margin-right: 10px;
+	}
+
+	#mid-node{
+
+		margin-top: 120px;
 	}
 
 	#mid-node #announcement{
