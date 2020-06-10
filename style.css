@@ -99,6 +99,11 @@ body{
 	
 }
 
+#mid-node #announcement #site-title{
+
+	font-size: 50px;
+}
+
 #mid-node #announcement ul{
 
 	padding: 0;
@@ -211,6 +216,11 @@ body{
 		margin-right: 10px;
 		margin-left: 10px;
 		
+	}
+
+	#mid-node #announcement #site-title{
+
+		font-size: 40px;
 	}
 
 	#mid-node .items .item-node{
