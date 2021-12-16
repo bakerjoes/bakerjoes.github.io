@@ -160,7 +160,7 @@ body{
 #mid-node #announcement table{
 
 	border-bottom: 2px solid grey;
-	display: inline-block;
+	width: 50%
 }
 
 #mid-node #announcement table #header-left{
