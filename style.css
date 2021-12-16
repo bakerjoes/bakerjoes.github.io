@@ -138,6 +138,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
 
 #mid-node #announcement #site-title{
@@ -160,7 +161,7 @@ body{
 #mid-node #announcement table{
 
 	border-bottom: 2px solid grey;
-	width: 50%
+	width: 60%
 }
 
 #mid-node #announcement table #header-left{
